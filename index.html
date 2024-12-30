@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bg-s-100{
+    background-size: 100% 100%!important;
+}
+
+.image0,.image1pistoncup,.image1btie,.image2amcqueendamage,.image2barrest,.image3amater,.image3bsally,.image4afixingroad,.image4bbadwork,.image5ahudsonhornet,.image5bhudsonhornet,.image6radiatorspringshistory,.image7finishesroad,.image8finds,.image8bgoestocalifornia,.image9race,.image10accident,.image11help,.image12rusteze,.image13,.image14hudsonmentor,.image15map,.imagelast {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.image0 {
+  background-image: url("image/image0.jpg");
+  min-height: 100%;
+}
+
+.image1pistoncup {
+  background-image: url("image/image1pistoncup.jpg");
+  min-height: 400px;
+}
+
+.image1btie {
+  background-image: url("image/image1btie.jpg");
+  min-height: 400px;
+}
+
+.image2amcqueendamage {
+  background-image: url("image/image2amcqueendamage.jpg");
+  min-height: 600px;
+}
+
+.image2barrest {
+  background-image: url("image/image2barrest.jpg");
+  min-height: 600px;
+}
+
+.image3amater {
+  background-image: url("image/image3amater.jpg");
+  min-height: 600px;
+}
+
+.image3bsally {
+  background-image: url("image/image3bsally.jpg");
+  min-height: 600px;
+}
+
+.image4afixingroad {
+  background-image: url("image/image4afixingroad.jpg");
+  min-height: 600px;
+}
+
+.image4bbadwork {
+  background-image: url("image/image4bbadwork.jpg");
+  min-height: 600px;
+}
+
+.image5ahudsonhornet {
+  background-image: url("image/image5ahudsonhornet.jpg");
+  min-height: 600px;
+}
+
+.image5bhudsonhornet {
+  background-image: url("image/image5bhudsonhornet.jpg");
+  min-height: 600px;
+}
+
+.image6radiatorspringshistory {
+  background-image: url("image/image6radiatorspringshistory.jpg");
+  min-height: 600px;
+}
+
+.image7finishesroad {
+  background-image: url("image/image7finishesroad.jpg");
+  min-height: 600px;
+}
+
+.image8finds {
+  background-image: url("image/image8finds.jpg");
+  min-height: 600px;
+}
+
+.image8bgoestocalifornia {
+  background-image: url("image/image8bgoestocalifornia.jpg");
+  min-height: 600px;
+}
+
+.image9race {
+  background-image: url("image/image9race.jpg");
+  min-height: 600px;
+}
+
+.image10accident {
+  background-image: url("image/image10accident.jpg");
+  min-height: 600px;
+}
+
+.image11help {
+  background-image: url("image/image11help.jpg");
+  min-height: 600px;
+}
+
+.image12rusteze {
+  background-image: url("image/image12rusteze.jpg");
+  min-height: 600px;
+}
+
+.image13 {
+  background-image: url("image/image13.jpg");
+  min-height: 600px;
+}
+
+.image14hudsonmentor {
+  background-image: url("image/image14hudsonmentor.jpg");
+  min-height: 600px;
+}
+
+.image15map {
+  background-image: url("image/image15map.jpg");
+  min-height: 600px;
+}
+
+.imagelast {
+  background-image: url("image/imagelast.jpg");
+  min-height: 600px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color:#777;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+h1{
+  font-size: 150px;
+  color: #fff;
+  font-weight:bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+}
+h6{
+  font-size: 24px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+
+section{
+  height: 100vh;
+  width: 100vw;
+  background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section-bg{
+  background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;
+color: #777;background-color:#96DEDA;text-align:center;padding:50px 80px;text-align: justify;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .image0,.image1pistoncup,.image1btie,.image2amcqueendamage,.image2barrest,.image3amater,.image3bsally,.image4afixingroad,.image4bbadwork,.image5ahudsonhornet,.image5bhudsonhornet,.image6radiatorspringshistory,.image7finishesroad,.image8finds,.image8bgoestocalifornia,.image9race,.image10accident,.image11help,.image12rusteze,.image13,.image14hudsonmentor,.image15map,.imagelast{
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+<section>
+  <div class="section-bg">
+    <h1><b>CARS</b></h1>
+    <h6> A STORY OF KINDNESS AND CAMARADERIE</h6>
+  </div>
+</section>
+
+  </div>
+
+  <div class="image0 bg-s-100">
+    <div class="caption">
+    </div>
+  </div>
+  
+  <div class="section-bg">
+    <h3 style="text-align:center;"><b>Lightning McQueen</b></h3>
+    <p>Lightning McQueen is a popular but young and reckless racecar. He’s ambitious and eager to make a name for himself, but lacks maturity and perspective.
+    </p>
+  </div>
+  
+  <div class="image1pistoncup">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+    </div>
+  </div>
+  
+  <div style="position:relative;">
+    <div class="section-bg">
+    <p>McQueen races in the prestigious Piston Cup.It’s his chance to prove himself against the top racers.
+    </p>
+    </div>
+  </div>
+  
+  <div class="image1btie">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+    </div>
+  </div>
+  
+  <div style="position:relative;">
+    <div class="section-bg">
+    <p>The race ends in a three-way tie between McQueen, Chick Hicks, and The King.The winner will be decided in a final showdown in California.
+    </p>
+    </div>
+  </div>
+  
+  <div class="image2amcqueendamage">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>On his way to California, McQueen accidentally damages the road in Radiator Springs. His careless driving rips up the town's main street.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image2barrest">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen gets caught by the town’s sheriff and is brought to court. He’s forced to stay and fix the road as punishment.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image3amater">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>He meets Mater, a goofy and friendly tow truck. Mater quickly becomes McQueen’s first friend in the town, teaching him about fun and friendship.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image3bsally">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen meets Sally, a Porsche who helps run the town.She convinces him to properly fix the road and take his punishment seriously.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image4afixingroad">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen does a rushed job and the road is still a mess. The town demands that he redo the work, teaching him the value of hard work.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image4bbadwork">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>He meets Doc Hudson, the town judge, who is tough on McQueen. McQueen doesn’t yet realize Doc’s legendary past as a racecar.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image5ahudsonhornet">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen eventually learns Doc Hudson's story. Doc was a three-time Piston Cup winner who was forced to leave racing after a serious crash.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image5bhudsonhornet">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>Sally shares the history of Radiator Springs, explaining how it was once a bustling town. A map or imagery of the town helps McQueen understand how the interstate bypass destroyed the town’s economy.</p>
+      </div>
+    </div>
+  
+    <div class="image6radiatorspringshistory">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen finally fixes the road the right way, earning the town’s respect. His attitude begins to change, and he enjoys being part of the community.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image7finishesroad">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen’s team eventually finds him after searching for days. They take him back to California to prepare for the final race.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image8finds">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen is transported back to California, ready to compete in the tiebreaker race. His Radiator Springs friends wish him luck.</p>
+      </div>
+    </div>
+  
+    <div class="image8bgoestocalifornia">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>During the final race, McQueen competes against Chick Hicks and The King. It’s a fast and intense showdown for the Piston Cup.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image9race">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>The King is involved in a devastating crash, leaving his car damaged. Instead of finishing the race, McQueen stops to help him.</p>
+      </div>
+    </div>
+  
+    <div class="image10accident">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen pushes The King to the finish line, sacrificing his own chance to win. It’s a moment of true sportsmanship, showing how much he has grown.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image11help">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>After the race, McQueen turns down lucrative sponsorship deals and returns to his old sponsor, Rust-eze. He stays loyal to the company that believed in him from the start.</p>
+      </div>
+    </div>
+  
+    <div class="image12rusteze">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>McQueen goes back to Radiator Springs, making it his new home. He’s welcomed by the residents, and the town starts to thrive again.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image13">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>Doc Hudson becomes McQueen’s mentor, guiding him both in racing and life. Their bond grows strong, and McQueen matures even more.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image14hudsonmentor">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>Radiator Springs becomes popular again, with tourists and visitors coming back. McQueen’s return puts the town back on the map.
+      </p>
+      </div>
+    </div>
+  
+    <div class="image15map">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p>End with a *Cars* movie poster. This wraps up McQueen’s journey from reckless rookie to a true champion with heart. 
+      </p>
+      </div>
+    </div>
+  
+    <div class="imagelast">
+      <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+      </div>
+    </div>
+    
+    <div style="position:relative;">
+      <div class="section-bg">
+      <p><b>The moral of *Cars*</b> is that true success comes from valuing friendships and helping others over personal ambition. It teaches humility and the importance of community over individual glory.</p>
+      </div>
+    </div>
+    
+</body>
+</html>
